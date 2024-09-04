@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style-type: none;
+    padding-right: 80px;
+}
+li{
+    display: inline-block;
+    padding: 0 40px ;   
+}
+header a{
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+    display: inline-block;
+    transition: 1s; 
+}
+header nav.menu-desktop a:hover{
+    color: rgb(155, 149, 149);
+    transform: scale(1.05);
+}
+header{
+    background-color: #171717;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logorota4rodas{
+    width: 300px;
+    height: 100px;
+}
+
