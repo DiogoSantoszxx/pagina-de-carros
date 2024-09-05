@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+
+}
+.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style-type: none;
+    padding-right: 100px;
+}
+li{
+    display: inline-block;
+    padding: 0 40px ;   
+}
+header a{
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+    display: inline-block;
+    transition: 1s; 
+}
+header nav.menu-desktop a:hover{
+    color: rgb(155, 149, 149);
+    transform: scale(1.05);
+}
+header{
+    background-color: #171717;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logorota4rodas{
+    width: 300px;
+    height: 100px;
+}
+.textosobre{
+    height: 100vh; /* 100% da altura da janela */
+    display: flex;
+    justify-content: space-between; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    flex-direction: column;
+}
+.bem-vindo{
+    font-family:"Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80PX;
+  color: white;
+  padding-top: 300px;
+  padding-bottom: 20px;
+
+}
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    width: 1200px;
+    color:white;
+    padding-bottom: 280px;
+}
+.img-seta{
+    width: 100px;
+    height: 100px;
+}
+.interface-primeira{
+    justify-content: space-between;
+}
+
+.segunda-parte{
+    background-color: #171717;
+    padding-top: 100px;
+}
+
+
+
