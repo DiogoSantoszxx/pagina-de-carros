@@ -43,6 +43,9 @@ header{
   background-color: #171717;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+span{
+  color:rgba(180, 10, 10, 0.6) ;
+}
 .logorota4rodas{
   width: 300px;
   height: 100px;
@@ -63,8 +66,26 @@ font-size: 80PX;
 color: white;
 padding-top: 300px;
 padding-bottom: 20px;
-
 }
+.links-carros{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(180, 10, 10, 0.6);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: 700;
+}
+.links-carros:hover{
+  background-color: rgba(233, 67, 67, 0.6);
+  transition: 1s;
+}
+
 .texto-sobre{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -89,7 +110,7 @@ padding-bottom: 20px;
   display: flex;
   align-items: center;
   width: 1800px;
-  margin-left: 100px;
+  margin-left: 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(31, 30, 30) 0px 0px 0px 3px;
   margin-bottom: 50px;
   padding-bottom: 50px;
@@ -99,6 +120,7 @@ padding-bottom: 20px;
   height: 550px;
   margin-left: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
 }
 .img-carro-2{
   width: 900px;
@@ -106,11 +128,13 @@ padding-bottom: 20px;
   margin-left: 15px;
   margin-top: 100px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
 }
 .img-carro-3{
   width: 700px;
   height: 450px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
 }
 .textos-segundo{
   padding-left: 50px;
@@ -131,16 +155,6 @@ padding-bottom: 20px;
   font-weight: 700;
 }
 .texto-sobre-segundo-lista{
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 10px;
-  background-color: rgba(180, 10, 10, 0.6);
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-weight: 700;
   display: flex;
   flex-direction: column;
 }
@@ -164,8 +178,17 @@ padding-bottom: 20px;
   padding-top: 20px;
   font-weight: 700;
 }
+.texto-sobre-terceiro-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+}
 .div-terceira{
-margin-left: 100px;
+margin-left: 50px;
 }
 .div-terceira-2{
   margin-right: 200px;
@@ -177,14 +200,6 @@ margin-left: 100px;
 .texto-sobre-segundo-lista-2{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 10px;
-  background-color: rgba(180, 10, 10, 0.6);
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   width: 600px;
@@ -206,7 +221,7 @@ margin-left: 100px;
   display: flex;
   align-items: center;
   width: 1800px;
-  margin-left: 100px;
+  margin-left: 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   margin-bottom: 50px;
   padding-bottom: 50px;
@@ -216,6 +231,47 @@ margin-left: 100px;
   height: 550px;
   margin-left: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
 }
-
+.interface-sobre-nos{
+  padding-left: 50px;
+}
+.texto-sobre-nos{
+  display: flex;
+}
+.titulo-sobre{
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(180, 10, 10, 0.6);
+  text-align: left;
+}
+.img-carro-sobre{
+  width: 980px;
+  height: 620px;
+  padding-left: 50px;
+}
+.texto-sobre-nos-p{
+  background-color: rgba(0, 0, 0, 0.548);
+  border-radius: 20px;
+  width: 850px;
+  padding-left: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 630px;
+}
+.titulo-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  width: 800px;
+  color:white;
+}
+.texto-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 800px;
+  color:white;
+  padding-bottom: 30px;
+}
 
