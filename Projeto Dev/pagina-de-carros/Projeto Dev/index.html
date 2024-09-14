@@ -25,16 +25,16 @@
             </div><!--logo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Carros</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#Carros">Carros</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Contatos">Contatos</a></li>
                 </ul>
             </nav>
         </div>    
     </header>
     <main>
-        <section class="primeira-parte">
+        <section class="primeira-parte" id="Inicio">
             <div class="interface-primeira">
                 <div class="textosobre">
                     <h1></h1>
@@ -48,7 +48,7 @@
                     <img class="img-seta" src="./img/seta_para_baixo.png" alt="">
                 </div>
         </section>
-        <section class="segunda-parte">
+        <section class="segunda-parte" id="Carros">
             <div class="interface-segunda">
                 <div class="imagem-carro">
                     <img class="img-carro" src="./img/corolla_gli_2019.webp" alt="imagem de carro">
@@ -206,7 +206,7 @@
                 </div>
             </div>
         </section>
-        <section class="sobre-nos">
+        <section class="sobre-nos" id="Sobre">
             <div class="interface-sobre-nos">
                 <h1 class="titulo-sobre">SOBRE NOSSO SITE</h1>
                 <div class="texto-sobre-nos">
@@ -220,32 +220,67 @@
                 </div>
             </div>
         </section >
-        <footer class="secContato">
-        <div class="social">
-            <h2 class="Contatos">Nossos Contatos</h2>
+        <section class="secContato" id="Contatos">
+        <h2 class="Contatos-texto">Nossos Contatos</h2>
+            <div class="social"> 
             <div class="Contato">
                 <h5>Daiane Vilela</h5>
                 <img class="contatoimg" src="./img/vilela.jpg">
                 <ul class="redes-sociais">
-                    <li><a href="https://www.instagram.com/vilela.day">Instagram<i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/daianevvilela">linkedin<i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/Day-vilela">Github<i class="fab fa-github"></i></a></li>
-                    <li><a href="https://wa.me/qr/EABWXQ5FWJADG1">Whatsapp<i class="fab fa-whatsapp"></i></a></li>
+                    <li><a class="insta" href="https://www.instagram.com/vilela.day">Instagram<i class="fab fa-instagram"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/daianevvilela">linkedin<i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" href="https://github.com/Day-vilela">Github<i class="fab fa-github"></i></a></li>
+                    <li><a class="Whatsapp" href="https://wa.me/qr/EABWXQ5FWJADG1">Whatsapp<i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
             <div class="Contato">
                 <h5>Diogo Figueira</h5>
                 <img class="contatoimg" src="img/diog.jpg" alt="Foto do contato 1">
                 <ul class="redes-sociais">
-                    <li><a href="https://www.instagram.com/usuario1">Instagram<i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/diogo-figueira-266670185/">linkedin<i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/DiogoSantoszxx">Github<i class="fab fa-github"></i></a></li>
-                    <li><a href="https://wa.me/5521964058865">Whatsapp<i class="fab fa-whatsapp"></i></a></li>
+                    <li><a class="insta" href="https://www.instagram.com/usuario1">Instagram<i class="fab fa-instagram"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/diogo-figueira-266670185/">linkedin<i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" href="https://github.com/DiogoSantoszxx">Github<i class="fab fa-github"></i></a></li>
+                    <li><a class="Whatsapp" href="https://wa.me/5521964058865">Whatsapp<i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
         </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="col">
+                    <h3>Navegação</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#Carros">Carros</a></li>
+                        <li><a href="#Sobre">Sobre Nós</a></li>
+                        <li><a href="#Contatos">Contato</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col">
+                    <h3>Redes Sociais</h3>
+                    <div class="social">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>Email: contato@sitecarros.com</li>
+                        <li>Telefone: (11) 99999-9999</li>
+                        <li>Endereço: Av. dos Automóveis, 123, São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <p class="copyright">© 2024 Site de Carros. Todos os direitos reservados.</p>
         </footer>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
