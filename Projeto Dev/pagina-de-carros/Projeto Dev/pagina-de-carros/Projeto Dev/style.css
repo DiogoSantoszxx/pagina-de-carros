@@ -1,0 +1,481 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #171717;
+}
+.primeira-parte{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/Design\ sem\ nome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+.interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul{
+  list-style-type: none;
+  padding-right: 6.25rem;
+}
+li{
+  display: inline-block;
+  padding: 0 2.5rem ;   
+}
+header a{
+  color: rgb(231, 225, 225);
+  text-decoration:none;
+  font-size: 1.25rem;
+  display: inline-block;
+  transition: 0.5s; 
+}
+header nav.menu-desktop a:hover{
+  color: rgb(219, 12, 12);
+  transform: scale(1.05);
+}
+header{
+  background-color: #171717;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
+}
+span{
+  color:rgba(180, 10, 10, 0.6) ;
+}
+.logorota4rodas{
+  width: 18.75rem;
+  height: 6.25rem;
+}
+.textosobre{
+  height: 100vh; /* 100% da altura da janela */
+  display: flex;
+  justify-content: space-between; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  flex-direction: column;
+}
+.bem-vindo{
+font-family:"Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 8vw;
+color: white;
+padding-top: 18.75rem;
+padding-bottom: 20px;
+}
+.links-carros{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(180, 10, 10, 0.6);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  font-weight: 700;
+}
+.links-carros:hover{
+  background-color: rgba(233, 67, 67, 0.6);
+  transition: 1s;
+}
+
+.texto-sobre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  width: 1200px;
+  color:white;
+  padding-bottom: 280px;
+}
+.img-seta{
+  width: 100px;
+  height: 100px;
+}
+.interface-primeira{
+  justify-content: space-between;
+}
+
+.segunda-parte{
+  background-color: #171717;
+  padding-top: 100px;
+}
+.interface-segunda{
+  display: flex;
+  width: 1800px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+
+}
+.img-carro{
+  width: 800px;
+  height: 550px;
+  margin-left: 15px;
+  margin-top: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+.img-carro-2{
+  width: 900px;
+  height: 550px;
+  margin-left: 15px;
+  margin-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+.img-carro-3{
+  width: 700px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+
+.textos-segundo{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.titulo-segundo{
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(180, 10, 10, 0.6);
+}
+.texto-sobre-segundo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.texto-sobre-segundo-lista{
+  display: flex;
+  flex-direction: column;
+}
+.titulo-terceiro{
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(180, 10, 10, 0.6);
+  text-align: center;
+}
+.interface-terceira{
+  display: flex;
+}
+.texto-sobre-terceiro{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 900px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.texto-sobre-terceiro-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.div-terceira{
+margin-left: 50px;
+}
+.div-terceira-2{
+  margin-right: 200px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.texto-sobre-segundo-lista-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  text-align: center;
+  margin-left: 100px;
+}
+.terceira-parte{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/mustang.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+.QuartaP{
+  background-color: #171717;
+  padding-top: 100px;
+  align-items: center;
+}
+.InterfaceQuart{
+  display: flex;
+  align-items: center;
+  width: 1800px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.img-carro4{
+  width: 800px;
+  height: 550px;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+.interface-sobre-nos{
+  padding-left: 50px;
+}
+.texto-sobre-nos{
+  display: flex;
+}
+.titulo-sobre{
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: 4px 4px 10px rgba(180, 10, 10, 0.6);
+  text-align: left;
+}
+.img-carro-sobre{
+  width: 980px;
+  height: 620px;
+  padding-left: 50px;
+}
+.texto-sobre-nos-p{
+  background-color: rgba(0, 0, 0, 0.548);
+  border-radius: 20px;
+  width: 850px;
+  padding-left: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 630px;
+}
+.titulo-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  width: 800px;
+  color:white;
+}
+.texto-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  width: 800px;
+  color:white;
+  padding-bottom: 30px;
+}
+
+
+/* styles.css */ 
+.Contatos-texto {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  color: white;
+  text-shadow: 4px 4px 10px rgba(180, 10, 10, 0.6);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 900px;
+  border-radius: 100px;
+}
+
+.secContato{
+  background-color: rgb(65, 2, 2);
+  height: 100vh;
+  text-align: center;
+}
+.Contato {
+  display: flex;
+  justify-content: space-evenly; /* Centraliza horizontalmente */
+  align-items: center;
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  flex-direction: column;
+  padding-top: 50px;
+  margin-right: 100px;
+  background-color:rgb(71, 1, 1);
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.contatoimg {
+  width: 150px;
+  border-radius: 100%;
+  
+}
+
+.redes-sociais {
+  list-style: none;
+  padding: 0;
+}
+
+.redes-sociais li {
+  display: contents;
+}
+
+.redes-sociais{
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  color: black;
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+}
+h5{
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  width: 300px;
+  padding: 5px 0;
+  border-radius: 50px;
+}
+.insta{
+text-decoration: none;
+margin-bottom: 30px;
+margin-top: 30px;
+background-image: linear-gradient(to right,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+width: 200px;
+padding: 5px 0;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+color: black;
+font-size: 30px;
+}
+.insta:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.linkedin{
+  text-decoration: none;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #0077b5, #00a0dc, #74c2fd);
+  width: 200px;
+  padding: 5px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+  font-size: 30px;
+}
+.linkedin:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.github{
+  text-decoration: none;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #24292e, #2f363d, #6e7681);
+  width: 200px;
+  padding: 5px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+  font-size: 30px;
+}
+.github:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.Whatsapp{
+  text-decoration: none;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #25d366, #128c7e);
+  width: 200px;
+  padding: 5px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+  font-size: 30px;
+
+}
+.Whatsapp:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+
+
+
+footer {
+  background-color: #0f0e0e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer .col {
+  flex: 1;
+  margin: 5px;
+}
+
+footer .col h3 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+footer .col ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .col ul li {
+  margin-bottom: 10px;
+}
+
+footer .col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .col ul li a:hover {
+  color: #feda75;
+}
+
+footer .social {
+  margin-top: 20px;
+}
+
+footer .social a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: #feda75;
+}
+
+footer p.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
