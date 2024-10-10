@@ -1,5 +1,6 @@
 const menuLinks = document.querySelectorAll('a[href^="#"]');
 
+
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
@@ -45,5 +46,24 @@ function smoothScrollTo(endX, endY, duration) {
   }
 
   animateScroll();
+}
+
+function mudarImagem(novoSrc) {
+  document.getElementById("minhaImagem").src = novoSrc;
+}
+function mudarImagem1(novoSrc) {
+  document.getElementById("minhaImagem1").src = novoSrc;
+}
+function mudarImagem12(novoSrc) {
+  document.getElementById("minhaImagem12").src = novoSrc;
+}
+function mudarImagem2(novoSrc) {
+  document.getElementById("minhaImagem2").src = novoSrc;
+}
+function mudarImagem3(novoSrc) {
+  document.getElementById("minhaImagem3").src = novoSrc;
+}
+function mudarImagem32(novoSrc) {
+  document.getElementById("minhaImagem32").src = novoSrc;
 }
 
