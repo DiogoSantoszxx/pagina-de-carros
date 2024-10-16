@@ -1,0 +1,525 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #171717;
+}
+.primeira-parte{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/Design\ sem\ nome.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+header nav ul{
+  list-style-type: none;
+  padding-right: 6.25rem;
+}
+li{
+  display: inline-block;
+  padding: 0 2.5rem ;   
+}
+header a{
+  color: rgb(231, 225, 225);
+  text-decoration:none;
+  font-size: 1.25rem;
+  display: inline-block;
+  transition: 0.5s; 
+}
+header nav.menu-desktop a:hover{
+  color: rgb(219, 12, 12);
+  transform: scale(1.05);
+}
+header{
+  background-color: #171717;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
+  position: fixed;
+}
+span{
+  color:rgba(180, 10, 10, 0.6) ;
+}
+.logorota4rodas{
+  width: 18.75rem;
+  height: 6.25rem;
+}
+.menu-abaixo{
+  position: absolute;
+  border: 1px solid #171717;
+  padding-top: 26px;
+  display: none;
+  background-color: #171717;
+}
+.menu-abaixo .link-carros{
+  display: block;
+  padding: 5px 0;
+  color: white;
+}
+.menu-abaixo .link-carros:hover{
+  color: white;
+  background-color:rgb(219, 12, 12);
+}
+.carros:hover .menu-abaixo {
+  display: block;
+}
+.textosobre{
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  flex-direction: column;
+  padding-top: 12.5rem;
+}
+.central{
+  text-align: center;
+}
+.bem-vindo{
+font-family:"Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 6vw;
+color: white;
+margin-bottom:3.125rem ;
+}
+.links-carros{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 0.625rem;
+  margin-top: 0.625rem;
+  background-color: rgba(180, 10, 10, 0.6);
+  border-radius: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+  font-weight: 700;
+}
+.links-carros:hover{
+  background-color: rgba(233, 67, 67, 0.6);
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+.texto-sobre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  color:white;
+  text-align: center;
+  padding: 5px 500px;
+}
+.img-seta{
+  margin-top: 3.125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.interface-primeira{
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.segunda-parte{
+  background-color: #171717;
+  padding-top: 1.25rem;
+}
+.interface-segunda{
+  display: flex;
+  margin-left: 3.125rem;
+  margin-bottom: 3.125rem;
+  padding-bottom: 3.125rem;
+
+}
+.img-carro{
+  width: 37rem;
+  height: 25.375rem;
+  margin-left: 0.938rem;
+  margin-top: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+  border-radius: 20px;
+}
+.img-carro-2{
+  width: 31.25rem;
+  height: 22.375rem;
+  margin-left: 0.938rem;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+  border-radius: 20px;
+}
+.img-carro-3{
+  width: 30.75rem;
+  height: 18.125rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+  border-radius: 1.25rem;
+  margin-left: 80px;
+}
+.img-carro4{
+  width: 37rem;
+  height: 25.375rem;
+  margin-left: 0.938rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+  border-radius: 1.25rem;
+}
+
+.textos-segundo{
+  padding-left: 3.125rem;
+  padding-right: 2.125rem;
+}
+.titulo-segundo{
+  font-family: "Roboto Mono", monospace;
+  font-size: 7rem;
+  color: white;
+  margin-left: 4rem;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(180, 10, 10, 0.6);
+}
+.texto-sobre-segundo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.625rem;
+  font-weight: 500;
+  text-align: justify;
+}
+.texto-sobre-segundo-lista{
+  display: flex;
+  flex-direction: column;
+}
+.titulo-terceiro{
+  font-family: "Roboto Mono", monospace;
+  font-size: 5rem;
+  color: white;
+  padding-bottom: 1.825rem;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(180, 10, 10, 0.6);
+  text-align: center;
+}
+.interface-terceira{
+  display: flex;
+}
+.texto-sobre-terceiro{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+  padding-top: 1.25rem;
+  font-weight: 500;
+  width: 500px;
+}
+.texto-sobre-terceiro-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+  padding-top: 1.25rem;
+  font-weight: 500;
+  width: 600px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+.div-terceira{
+margin-left: 3.125rem;
+padding-bottom: 8rem;
+}
+.div-terceira-2{
+  margin-left: 3.25rem;
+  margin-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.texto-sobre-segundo-lista-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 37.5rem;
+  text-align: center;
+  margin-left: 6.25rem;
+}
+.terceira-parte{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/mustang.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.conteudo3{
+  display: flex;
+  justify-content: center;
+}
+.QuartaP{
+  background-color: #171717;
+  padding-top: 1.25rem;
+  align-items: center;
+}
+.InterfaceQuart{
+  display: flex;
+  align-items: center;
+  margin-left:3.125rem;
+  margin-bottom:3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.interface-sobre-nos{
+  padding-left: 3.125rem;
+}
+.texto-sobre-nos{
+  display: flex;
+  height: 100%;
+}
+.titulo-sobre{
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.125rem;
+  color: white;
+  padding-bottom: 1.875rem;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(180, 10, 10, 0.6);
+  text-align: left;
+}
+.img-carro-sobre{
+  width: 620px;
+  height: 420px;
+  padding-left: 3.125rem;
+  margin-left: 100px;
+}
+.texto-sobre-nos-pa{
+  text-align:justify;
+  width: 500px;
+  height: max-content;
+  background-color: #0f0e0e;
+  padding: 10px;
+}
+.titulo-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color:white;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.6);
+  text-align: center;
+  background-color: red;
+
+}
+.texto-sobre-final{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color:white;
+  padding-bottom: 1.875rem;
+}
+
+
+/* styles.css */ 
+.Contatos-texto {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.125rem;
+  color: white;
+  text-shadow: 0.25rem 0.25rem 0.625rem rgba(180, 10, 10, 0.6);
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
+  margin-top: 6.25rem;
+  margin-bottom: 3.125rem;
+  border-radius: 6.25rem;
+}
+
+.secContato{
+  background-color: rgb(65, 2, 2);
+  text-align: center;
+  padding-bottom: 100px ;
+}
+.Contato {
+  display: flex;
+  justify-content: space-evenly; /* Centraliza horizontalmente */
+  align-items: center;
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  flex-direction: column;
+  padding-top: 3.125rem;
+  margin-right: 6.25rem;
+  background-color:rgb(71, 1, 1);
+  width: 31.25rem;
+  border-radius: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3.375rem 3.4375rem, rgba(0, 0, 0, 0.12) 0rem -0.75rem 1.875rem, rgba(0, 0, 0, 0.12) 0rem 0.25rem 0.375rem, rgba(0, 0, 0, 0.17) 0rem 0.75rem 0.8125rem, rgba(0, 0, 0, 0.09) 0rem -0.1875rem 0.3125rem;
+}
+
+.contatoimg {
+  width: 9.375rem;
+  border-radius: 100%;
+  
+}
+
+.redes-sociais {
+  list-style: none;
+  padding: 0;
+}
+
+.redes-sociais li {
+  display: contents;
+}
+
+.redes-sociais{
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.875rem;
+  color: black;
+  padding-bottom: 1.875rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  margin-left: 9.375rem;
+}
+h5{
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.875rem;
+  color: black;
+  margin-bottom: 1.875rem;
+  background-color: aliceblue;
+  width: 18.75rem;
+  padding: 0.313rem 0;
+  border-radius: 3.125rem;
+}
+.insta{
+text-decoration: none;
+margin-bottom: 1.875rem;
+margin-top: 1.875rem;
+background-image: linear-gradient(to right,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+width: 12.5rem;
+padding: 0.313rem 0;
+border-radius: 0.313rem;
+box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+color: black;
+font-size: 1.875rem;
+}
+.insta:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.linkedin{
+  text-decoration: none;
+  margin-bottom: 1.875rem;
+  background: linear-gradient(to right, #0077b5, #00a0dc, #74c2fd);
+  width: 12.5rem;
+  padding: 0.313rem 0;
+  border-radius: 0.313rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+  color: black;
+  font-size: 1.875rem;
+}
+.linkedin:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.github{
+  text-decoration: none;
+  margin-bottom: 1.875rem;
+  background: linear-gradient(to right, #24292e, #2f363d, #6e7681);
+  width: 12.5rem;
+  padding: 0.313rem 0;
+  border-radius: 0.313rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+  color: black;
+  font-size: 1.875rem;
+}
+.github:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+.Whatsapp{
+  text-decoration: none;
+  margin-bottom: 1.875rem;
+  background: linear-gradient(to right, #25d366, #128c7e);
+  width: 12.5rem;
+  padding: 0.313rem 0;
+  border-radius: 0.313rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.3125rem 0.9375rem;
+  color: black;
+  font-size: 1.875rem;
+
+}
+.Whatsapp:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+
+
+
+footer {
+  background-color: #0f0e0e;
+  color: white;
+  padding: 1.25rem 0;
+  text-align: center;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+footer .col {
+  flex: 1;
+  margin: 0.313rem;
+}
+
+footer .col h3 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 0.625rem;
+  margin-bottom: 0.625rem;
+  color: #ffffff;
+}
+
+footer .col ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .col ul li {
+  margin-bottom: 0.625rem;
+}
+
+footer .col ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .col ul li a:hover {
+  color: #feda75;
+}
+
+footer .social {
+  margin-top: 1.25rem;
+}
+
+footer .social a {
+  margin: 0 0.625rem;
+  color: white;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: #feda75;
+}
+
+footer p.copyright {
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
